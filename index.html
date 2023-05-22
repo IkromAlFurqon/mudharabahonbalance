@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+    <title>IICYMS 2023 - Mudharabah On Balance</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="" class="logo">IICYMS</a>
+            <div class="space"></div>
+            <div class="nav-item-container">
+                <a href="https://ikromalfurqon.github.io/home" class="nav-item">Home</a>
+                <div class="underline"></div>
+            </div>
+            <div class="nav-item-container">
+                <a href="https://ikromalfurqon.github.io/murabahah" class="nav-item">Murabahah</a>
+                <div class="underline"></div>
+            </div>
+            <div class="nav-item-container">
+                <a href="https://ikromalfurqon.github.io/musyarakah" class="nav-item">Musyarakah</a>
+                <div class="underline"></div>
+            </div>
+            <div class="nav-item-container">
+                <a href="https://ikromalfurqon.github.io/mudharabahonbalance" class="nav-item">Mudharabah On Balance Sheet</a>
+                <div class="underline"></div>
+            </div>
+            <div class="nav-item-container">
+                <a href="https://ikromalfurqon.github.io/mudharabahoffbalance" class="nav-item">Mudharabah Off Balance Sheet</a>
+                <div class="underline"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="hero-section">
+        <div class="hero-section-container">
+            <h1>Shariah-compliant Financing Calculator</h1>
+            <h2>Mudharabah On Balance Sheet Calculator</h2>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="content-section">
+        <div class="content-section-container">
+            <h1>What is Mudharabah On Balance Sheet?</h1>
+            <p>Mudharabah Muqayyadah on-balance-sheet is an agreement where the investor invests their money with a Shariah-compliant bank for management and subsequent distribution to the business executor according to specific conditions. This type of financing is typically used for longer-term projects or investments where the investor and the entrepreneur want to establish a formal partnership.</p>
+            <br><hr>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="content-section">
+        <div class="content-section-container">
+            <h1>Product of Mudharabah On Balance Sheet</h1>
+            <ol>
+                <li>Deposito: This refers to a type of investment deposit in which the depositor entrusts their funds to a financial institution for a fixed period.</li>
+                <li>Tabungan: This refers to a savings account that operates on the principle of profit-sharing. The depositor entrusts their funds to a financial institution, which then invests the funds in sharia-compliant ventures.</li>
+                <li>Obligation: This refers to an Islamic bond that is issued based on the mudharabah principle.</li>
+            </ol>
+            <br><hr>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="content-section">
+        <div class="content-section-container">
+            <h1>Simulation of Mudharabah On Balance Calculation Methods</h1>
+            <br><br>
+            <div class="calculator-container" id="mudharabah-offbalance">
+                <div class="calculator-input-container">
+                    <h1>Input Forms</h1>
+                    <div class="input-container">
+                        <label for="customerInvestAmount">The amount of investor customer funds</label>
+                        <input type="number" name="customerInvestAmount" id="customerInvestAmount">
+                    </div>
+                    <div class="input-container">
+                        <label for="averageBalance">Individual's average daily balance</label>
+                        <input type="number" name="averageBalance" id="averageBalance">
+                    </div>
+                    <div class="input-container">
+                        <label for="bankFunds">Bank Funds in Project Financing</label>
+                        <input type="number" name="bankFunds" id="bankFunds">
+                    </div>
+                    <div class="input-container">
+                        <label for="totalIncome">Income from the distribution of financing</label>
+                        <input type="number" name="totalIncome" id="totalIncome">
+                    </div>
+                    <div class="input-container">
+                        <label for="sharingRatio">Sharing Ratio (for Investor)</label>
+                        <input type="number" name="sharingRatio" id="sharingRatio">
+                    </div>
+                    <div class="input-container">
+                        <div id="input-button">Calculate!</div>
+                    </div>
+                </div>
+
+                <div class="calculator-output-container">
+                    <div class="general-output-container">
+                        <div class="general-output-column">
+                            <div class="general-output">
+                                <h1>The profit sharing amount for investor</h1>
+                                <h2 id="sharingAmount-container"></h2>
+                            </div>
+                            <div class="general-output">
+                                <h1>Investment Payback Amount</h1>
+                                <h2 id="paybackAmount-container"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <p class="note">Notes:</p>
+            <p class="note">This calculator is made to make it easier for you to calculate your loan. The calculation provided is an approximate estimation of the financing installments, based on a fixed margin rate in percentage (%). Please remind that the computation might change based on the lending institution, the loan amount, the repayment period, the allocation of proportions, and the method used. Remember that this is only an estimate, and the real installments may vary from the computation given. However, this calculation provides a useful tool for borrowers to get a general idea of the financing costs and make an informed decision when choosing a financing option.</p>
+            <p class="note"></p>
+            <br><hr>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>
